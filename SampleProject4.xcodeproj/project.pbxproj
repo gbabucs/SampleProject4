@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B065F0B186430A3005F9D03 /* YDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B065F0A186430A3005F9D03 /* YDownload.m */; };
+		1B065F0F18644912005F9D03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B065F0C18644912005F9D03 /* AVFoundation.framework */; };
+		1B065F1018644912005F9D03 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B065F0D18644912005F9D03 /* CoreMedia.framework */; };
+		1B065F1118644912005F9D03 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B065F0E18644912005F9D03 /* MediaPlayer.framework */; };
+		1B065F1318682935005F9D03 /* TagList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B065F1218682935005F9D03 /* TagList.plist */; };
+		1B47E92D18E2FDF800979E24 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B47E92C18E2FDF800979E24 /* background.jpg */; };
+		1B47E92F18E3012300979E24 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B47E92E18E3012300979E24 /* background@2x.jpg */; };
+		1B47E93118E302F200979E24 /* Stoke City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B47E93018E302F200979E24 /* Stoke City.png */; };
+		1B47E93318E3079800979E24 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B47E93218E3079700979E24 /* Default-Landscape~ipad.png */; };
+		1B47E93618E3081700979E24 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B47E93418E307D900979E24 /* Default-Landscape@2x~ipad.png */; };
+		1B52183C185B176D00EE4F64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B52183B185B176D00EE4F64 /* UIKit.framework */; };
+		1B52183E185B176D00EE4F64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B52183D185B176D00EE4F64 /* Foundation.framework */; };
+		1B521840185B176D00EE4F64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B52183F185B176D00EE4F64 /* CoreGraphics.framework */; };
+		1B521846185B176D00EE4F64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B521844185B176D00EE4F64 /* InfoPlist.strings */; };
+		1B521848185B176D00EE4F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B521847185B176D00EE4F64 /* main.m */; };
+		1B52184C185B176D00EE4F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B52184B185B176D00EE4F64 /* AppDelegate.m */; };
+		1B521855185B176D00EE4F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B521854185B176D00EE4F64 /* ViewController.m */; };
+		1B521858185B176D00EE4F64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B521856185B176D00EE4F64 /* ViewController_iPhone.xib */; };
+		1B52185B185B176D00EE4F64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B521859185B176D00EE4F64 /* ViewController_iPad.xib */; };
+		1B521863185B17E400EE4F64 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B521862185B17E400EE4F64 /* MainMenuViewController.m */; };
+		1B52186D185B186F00EE4F64 /* CustomActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B521866185B186F00EE4F64 /* CustomActivityViewController.m */; };
+		1B52186E185B186F00EE4F64 /* CustomConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B521868185B186F00EE4F64 /* CustomConnection.m */; };
+		1B521870185B186F00EE4F64 /* UIButton+CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B52186C185B186F00EE4F64 /* UIButton+CustomButton.m */; };
+		1B521873185B189900EE4F64 /* MainMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B521872185B189900EE4F64 /* MainMenu.plist */; };
+		1B521877185B190700EE4F64 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B521876185B190700EE4F64 /* AppData.m */; };
+		1B52187B185B282200EE4F64 /* uefa.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B52187A185B282200EE4F64 /* uefa.png */; };
+		1B978D6D18EECBE9002CD3FB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B978D6A18EECBE9002CD3FB /* Default.png */; };
+		1B978D6F18EECBE9002CD3FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B978D6C18EECBE9002CD3FB /* Default-568h@2x.png */; };
+		1B978D7118EECC0D002CD3FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B978D7018EECC0D002CD3FB /* Images.xcassets */; };
+		1BBC136D185EF09200A81053 /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC136C185EF09200A81053 /* HeaderViewController.m */; };
+		1BBC136F185EF10A00A81053 /* headerimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC136E185EF10A00A81053 /* headerimage.png */; };
+		1BBC1372185F17BB00A81053 /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC1371185F17BA00A81053 /* ToolBarViewController.m */; };
+		1BBC1377185F389D00A81053 /* Team.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC1376185F389D00A81053 /* Team.plist */; };
+		1BBF42B0186078180078DCB8 /* laliga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF42AF186078180078DCB8 /* laliga.jpeg */; };
+		1BBF42B2186078A30078DCB8 /* epl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF42B1186078A30078DCB8 /* epl.jpeg */; };
+		1BBF42B4186079560078DCB8 /* german.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF42B3186079560078DCB8 /* german.png */; };
+		1BBF42B718607BC50078DCB8 /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF42B618607BC50078DCB8 /* WebView.m */; };
+		1BBF42B91861B67E0078DCB8 /* rounded-rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF42B81861B67E0078DCB8 /* rounded-rectangle.png */; };
+		1BBF42BB1861C2FD0078DCB8 /* BackArrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF42BA1861C2FD0078DCB8 /* BackArrow.jpg */; };
+		1BC65F5D18ED74430018F91B /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC65F5C18ED74430018F91B /* icon57.png */; };
+		1BC65F5F18ED74520018F91B /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC65F5E18ED74520018F91B /* icon114.png */; };
+		1BC65F6318EE87DD0018F91B /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC65F6218EE87DD0018F91B /* icon144.png */; };
+		1BC65F6518EE87DF0018F91B /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC65F6418EE87DF0018F91B /* icon72.png */; };
+		1BC65F6718EED0340018F91B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC65F6618EED0340018F91B /* Default@2x.png */; };
+		1BF301DF18E178B600300967 /* Athletic bilbao.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301DE18E178B600300967 /* Athletic bilbao.png */; };
+		1BF301E318E17A1200300967 /* Atletico Madrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301E218E17A1200300967 /* Atletico Madrid.png */; };
+		1BF301E518E17B2A00300967 /* Celta Vigo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301E418E17B2A00300967 /* Celta Vigo.png */; };
+		1BF301E718E17B8C00300967 /* Real Madrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301E618E17B8C00300967 /* Real Madrid.png */; };
+		1BF301E918E17BE700300967 /* Barcelona.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301E818E17BE700300967 /* Barcelona.png */; };
+		1BF301EB18E17CB700300967 /* Getafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301EA18E17CB700300967 /* Getafe.png */; };
+		1BF301ED18E17E3700300967 /* Granada.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301EC18E17E3600300967 /* Granada.png */; };
+		1BF301EF18E17E9000300967 /* Levante.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301EE18E17E9000300967 /* Levante.png */; };
+		1BF301F118E17F2000300967 /* Malaga.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301F018E17F2000300967 /* Malaga.png */; };
+		1BF301F318E17FAB00300967 /* Osasuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301F218E17FAB00300967 /* Osasuna.png */; };
+		1BF301F518E1806800300967 /* Rayo Vallecano.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301F418E1806800300967 /* Rayo Vallecano.png */; };
+		1BF301F718E180E800300967 /* Real Betis.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301F618E180E800300967 /* Real Betis.png */; };
+		1BF301F918E1822000300967 /* Real Sociedad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301F818E1822000300967 /* Real Sociedad.png */; };
+		1BF301FB18E1827A00300967 /* Real Valladollid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301FA18E1827A00300967 /* Real Valladollid.png */; };
+		1BF301FD18E1835400300967 /* Sevilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301FC18E1835400300967 /* Sevilla.png */; };
+		1BF301FF18E183CD00300967 /* Valencia CF.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF301FE18E183CD00300967 /* Valencia CF.png */; };
+		1BF3020318E1852500300967 /* Villarreal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020218E1852400300967 /* Villarreal.png */; };
+		1BF3020518E1863000300967 /* Espanyol.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020418E1862F00300967 /* Espanyol.png */; };
+		1BF3020718E1874000300967 /* Elche.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020618E1874000300967 /* Elche.png */; };
+		1BF3020918E1883100300967 /* Almeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020818E1883100300967 /* Almeria.png */; };
+		1BF3021C18E195C300300967 /* Arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020B18E195C300300967 /* Arsenal.png */; };
+		1BF3021D18E195C300300967 /* Aston Villa.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020C18E195C300300967 /* Aston Villa.png */; };
+		1BF3021E18E195C300300967 /* Cardiff City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020D18E195C300300967 /* Cardiff City.png */; };
+		1BF3021F18E195C300300967 /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020E18E195C300300967 /* Chelsea.png */; };
+		1BF3022018E195C300300967 /* Crystal palace.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3020F18E195C300300967 /* Crystal palace.png */; };
+		1BF3022118E195C300300967 /* Everton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021018E195C300300967 /* Everton.png */; };
+		1BF3022218E195C300300967 /* Fulham.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021118E195C300300967 /* Fulham.png */; };
+		1BF3022318E195C300300967 /* Hull City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021218E195C300300967 /* Hull City.png */; };
+		1BF3022418E195C300300967 /* Manchester City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021318E195C300300967 /* Manchester City.png */; };
+		1BF3022518E195C300300967 /* Manchester United.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021418E195C300300967 /* Manchester United.png */; };
+		1BF3022618E195C300300967 /* Newcastle United.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021518E195C300300967 /* Newcastle United.png */; };
+		1BF3022718E195C300300967 /* Norwich City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021618E195C300300967 /* Norwich City.png */; };
+		1BF3022818E195C300300967 /* Sunderland.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021718E195C300300967 /* Sunderland.png */; };
+		1BF3022918E195C300300967 /* Swansea City Afc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021818E195C300300967 /* Swansea City Afc.png */; };
+		1BF3022A18E195C300300967 /* Tottenham Hotspur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021918E195C300300967 /* Tottenham Hotspur.png */; };
+		1BF3022B18E195C300300967 /* West Bromwich Albion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021A18E195C300300967 /* West Bromwich Albion.png */; };
+		1BF3022C18E195C300300967 /* West Ham United.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3021B18E195C300300967 /* West Ham United.png */; };
+		1BF3022E18E19CC600300967 /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3022D18E19CC300300967 /* Liverpool.png */; };
+		1BF3024218E1A28200300967 /* Augsburg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023018E1A28200300967 /* Augsburg.png */; };
+		1BF3024318E1A28200300967 /* Bayer leverkusen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023118E1A28200300967 /* Bayer leverkusen.png */; };
+		1BF3024418E1A28200300967 /* Bayern Munich.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023218E1A28200300967 /* Bayern Munich.png */; };
+		1BF3024518E1A28200300967 /* Borussia Dortmund.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023318E1A28200300967 /* Borussia Dortmund.png */; };
+		1BF3024618E1A28200300967 /* Borussia Mochengladbach.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023418E1A28200300967 /* Borussia Mochengladbach.png */; };
+		1BF3024718E1A28200300967 /* Eintracht Braunschweig.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023518E1A28200300967 /* Eintracht Braunschweig.png */; };
+		1BF3024818E1A28200300967 /* Eintracht Frankfurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023618E1A28200300967 /* Eintracht Frankfurt.png */; };
+		1BF3024918E1A28200300967 /* FAV Maniz 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023718E1A28200300967 /* FAV Maniz 05.png */; };
+		1BF3024A18E1A28200300967 /* Hamburger SV.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023818E1A28200300967 /* Hamburger SV.png */; };
+		1BF3024B18E1A28200300967 /* Hannover 96.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023918E1A28200300967 /* Hannover 96.png */; };
+		1BF3024C18E1A28200300967 /* Herath Berlin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023A18E1A28200300967 /* Herath Berlin.png */; };
+		1BF3024D18E1A28200300967 /* Nuremberg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023B18E1A28200300967 /* Nuremberg.png */; };
+		1BF3024E18E1A28200300967 /* SC Freiburg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023C18E1A28200300967 /* SC Freiburg.png */; };
+		1BF3024F18E1A28200300967 /* Schalke 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023D18E1A28200300967 /* Schalke 04.png */; };
+		1BF3025018E1A28200300967 /* TSG 1899 Hoffenheim.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023E18E1A28200300967 /* TSG 1899 Hoffenheim.png */; };
+		1BF3025118E1A28200300967 /* VFB Stuttgart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3023F18E1A28200300967 /* VFB Stuttgart.png */; };
+		1BF3025218E1A28200300967 /* VFl Wolfsburg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3024018E1A28200300967 /* VFl Wolfsburg.png */; };
+		1BF3025318E1A28200300967 /* Werder Bremen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3024118E1A28200300967 /* Werder Bremen.png */; };
+		1BF3025518E1A8B600300967 /* Southampton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3025418E1A8B300300967 /* Southampton.png */; };
+		1BF3026318E1AE7400300967 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3026218E1AE7400300967 /* libGoogleAdMobAds.a */; };
+		1BF3026618E1C06C00300967 /* AdsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3026518E1C06700300967 /* AdsWrapper.m */; };
+		1BF3026818E1C15D00300967 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3026718E1C15D00300967 /* AudioToolbox.framework */; };
+		1BF3026A18E1C17F00300967 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3026918E1C17F00300967 /* MessageUI.framework */; };
+		1BF3026C18E1C19300300967 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3026B18E1C19300300967 /* AdSupport.framework */; };
+		1BF3026E18E1C1A200300967 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3026D18E1C1A200300967 /* StoreKit.framework */; };
+		1BF3027018E1C1BC00300967 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3026F18E1C1BC00300967 /* SystemConfiguration.framework */; };
+		1BF3027218E1C2D400300967 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF3027118E1C2D200300967 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B065F09186430A3005F9D03 /* YDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDownload.h; sourceTree = "<group>"; };
+		1B065F0A186430A3005F9D03 /* YDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDownload.m; sourceTree = "<group>"; };
+		1B065F0C18644912005F9D03 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B065F0D18644912005F9D03 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1B065F0E18644912005F9D03 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1B065F1218682935005F9D03 /* TagList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TagList.plist; sourceTree = "<group>"; };
+		1B47E92C18E2FDF800979E24 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = Images/background.jpg; sourceTree = "<group>"; };
+		1B47E92E18E3012300979E24 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background@2x.jpg"; path = "Images/background@2x.jpg"; sourceTree = "<group>"; };
+		1B47E93018E302F200979E24 /* Stoke City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stoke City.png"; sourceTree = "<group>"; };
+		1B47E93218E3079700979E24 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		1B47E93418E307D900979E24 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		1B521838185B176D00EE4F64 /* iFootVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFootVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B52183B185B176D00EE4F64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B52183D185B176D00EE4F64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B52183F185B176D00EE4F64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B521843185B176D00EE4F64 /* SampleProject4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleProject4-Info.plist"; sourceTree = "<group>"; };
+		1B521845185B176D00EE4F64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B521847185B176D00EE4F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B521849185B176D00EE4F64 /* SampleProject4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleProject4-Prefix.pch"; sourceTree = "<group>"; };
+		1B52184A185B176D00EE4F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B52184B185B176D00EE4F64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B52184D185B176D00EE4F64 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1B52184F185B176D00EE4F64 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1B521851185B176D00EE4F64 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1B521853185B176D00EE4F64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B521854185B176D00EE4F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B521857185B176D00EE4F64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		1B52185A185B176D00EE4F64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		1B521861185B17E400EE4F64 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		1B521862185B17E400EE4F64 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		1B521865185B186F00EE4F64 /* CustomActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomActivityViewController.h; path = CustomClasses/CustomActivityViewController.h; sourceTree = "<group>"; };
+		1B521866185B186F00EE4F64 /* CustomActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomActivityViewController.m; path = CustomClasses/CustomActivityViewController.m; sourceTree = "<group>"; };
+		1B521867185B186F00EE4F64 /* CustomConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomConnection.h; path = CustomClasses/CustomConnection.h; sourceTree = "<group>"; };
+		1B521868185B186F00EE4F64 /* CustomConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomConnection.m; path = CustomClasses/CustomConnection.m; sourceTree = "<group>"; };
+		1B52186B185B186F00EE4F64 /* UIButton+CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+CustomButton.h"; path = "CustomClasses/UIButton+CustomButton.h"; sourceTree = "<group>"; };
+		1B52186C185B186F00EE4F64 /* UIButton+CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CustomButton.m"; path = "CustomClasses/UIButton+CustomButton.m"; sourceTree = "<group>"; };
+		1B521872185B189900EE4F64 /* MainMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainMenu.plist; sourceTree = "<group>"; };
+		1B521875185B190700EE4F64 /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		1B521876185B190700EE4F64 /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		1B521879185B20BD00EE4F64 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		1B52187A185B282200EE4F64 /* uefa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uefa.png; path = Images/uefa.png; sourceTree = "<group>"; };
+		1B978D6A18EECBE9002CD3FB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1B978D6C18EECBE9002CD3FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1B978D7018EECC0D002CD3FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BBC136B185EF09200A81053 /* HeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
+		1BBC136C185EF09200A81053 /* HeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
+		1BBC136E185EF10A00A81053 /* headerimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headerimage.png; path = Images/headerimage.png; sourceTree = "<group>"; };
+		1BBC1370185F17B900A81053 /* ToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarViewController.h; sourceTree = "<group>"; };
+		1BBC1371185F17BA00A81053 /* ToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarViewController.m; sourceTree = "<group>"; };
+		1BBC1376185F389D00A81053 /* Team.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Team.plist; sourceTree = "<group>"; };
+		1BBF42AF186078180078DCB8 /* laliga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = laliga.jpeg; path = Images/laliga.jpeg; sourceTree = "<group>"; };
+		1BBF42B1186078A30078DCB8 /* epl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = epl.jpeg; path = Images/epl.jpeg; sourceTree = "<group>"; };
+		1BBF42B3186079560078DCB8 /* german.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = german.png; path = Images/german.png; sourceTree = "<group>"; };
+		1BBF42B518607BC50078DCB8 /* WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
+		1BBF42B618607BC50078DCB8 /* WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
+		1BBF42B81861B67E0078DCB8 /* rounded-rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rounded-rectangle.png"; path = "Images/rounded-rectangle.png"; sourceTree = "<group>"; };
+		1BBF42BA1861C2FD0078DCB8 /* BackArrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BackArrow.jpg; path = Images/BackArrow.jpg; sourceTree = "<group>"; };
+		1BC65F5C18ED74430018F91B /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		1BC65F5E18ED74520018F91B /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		1BC65F6018EE87CD0018F91B /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		1BC65F6218EE87DD0018F91B /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		1BC65F6418EE87DF0018F91B /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		1BC65F6618EED0340018F91B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1BF301DE18E178B600300967 /* Athletic bilbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Athletic bilbao.png"; sourceTree = "<group>"; };
+		1BF301E218E17A1200300967 /* Atletico Madrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atletico Madrid.png"; sourceTree = "<group>"; };
+		1BF301E418E17B2A00300967 /* Celta Vigo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Celta Vigo.png"; sourceTree = "<group>"; };
+		1BF301E618E17B8C00300967 /* Real Madrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Madrid.png"; sourceTree = "<group>"; };
+		1BF301E818E17BE700300967 /* Barcelona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barcelona.png; sourceTree = "<group>"; };
+		1BF301EA18E17CB700300967 /* Getafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Getafe.png; sourceTree = "<group>"; };
+		1BF301EC18E17E3600300967 /* Granada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Granada.png; sourceTree = "<group>"; };
+		1BF301EE18E17E9000300967 /* Levante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Levante.png; sourceTree = "<group>"; };
+		1BF301F018E17F2000300967 /* Malaga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malaga.png; sourceTree = "<group>"; };
+		1BF301F218E17FAB00300967 /* Osasuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Osasuna.png; sourceTree = "<group>"; };
+		1BF301F418E1806800300967 /* Rayo Vallecano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rayo Vallecano.png"; sourceTree = "<group>"; };
+		1BF301F618E180E800300967 /* Real Betis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Betis.png"; sourceTree = "<group>"; };
+		1BF301F818E1822000300967 /* Real Sociedad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Sociedad.png"; sourceTree = "<group>"; };
+		1BF301FA18E1827A00300967 /* Real Valladollid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Valladollid.png"; sourceTree = "<group>"; };
+		1BF301FC18E1835400300967 /* Sevilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sevilla.png; sourceTree = "<group>"; };
+		1BF301FE18E183CD00300967 /* Valencia CF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Valencia CF.png"; sourceTree = "<group>"; };
+		1BF3020218E1852400300967 /* Villarreal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Villarreal.png; sourceTree = "<group>"; };
+		1BF3020418E1862F00300967 /* Espanyol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Espanyol.png; sourceTree = "<group>"; };
+		1BF3020618E1874000300967 /* Elche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elche.png; sourceTree = "<group>"; };
+		1BF3020818E1883100300967 /* Almeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Almeria.png; sourceTree = "<group>"; };
+		1BF3020B18E195C300300967 /* Arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenal.png; sourceTree = "<group>"; };
+		1BF3020C18E195C300300967 /* Aston Villa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aston Villa.png"; sourceTree = "<group>"; };
+		1BF3020D18E195C300300967 /* Cardiff City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardiff City.png"; sourceTree = "<group>"; };
+		1BF3020E18E195C300300967 /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
+		1BF3020F18E195C300300967 /* Crystal palace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crystal palace.png"; sourceTree = "<group>"; };
+		1BF3021018E195C300300967 /* Everton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Everton.png; sourceTree = "<group>"; };
+		1BF3021118E195C300300967 /* Fulham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fulham.png; sourceTree = "<group>"; };
+		1BF3021218E195C300300967 /* Hull City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hull City.png"; sourceTree = "<group>"; };
+		1BF3021318E195C300300967 /* Manchester City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester City.png"; sourceTree = "<group>"; };
+		1BF3021418E195C300300967 /* Manchester United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester United.png"; sourceTree = "<group>"; };
+		1BF3021518E195C300300967 /* Newcastle United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newcastle United.png"; sourceTree = "<group>"; };
+		1BF3021618E195C300300967 /* Norwich City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Norwich City.png"; sourceTree = "<group>"; };
+		1BF3021718E195C300300967 /* Sunderland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunderland.png; sourceTree = "<group>"; };
+		1BF3021818E195C300300967 /* Swansea City Afc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swansea City Afc.png"; sourceTree = "<group>"; };
+		1BF3021918E195C300300967 /* Tottenham Hotspur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tottenham Hotspur.png"; sourceTree = "<group>"; };
+		1BF3021A18E195C300300967 /* West Bromwich Albion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Bromwich Albion.png"; sourceTree = "<group>"; };
+		1BF3021B18E195C300300967 /* West Ham United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Ham United.png"; sourceTree = "<group>"; };
+		1BF3022D18E19CC300300967 /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
+		1BF3023018E1A28200300967 /* Augsburg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Augsburg.png; sourceTree = "<group>"; };
+		1BF3023118E1A28200300967 /* Bayer leverkusen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bayer leverkusen.png"; sourceTree = "<group>"; };
+		1BF3023218E1A28200300967 /* Bayern Munich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bayern Munich.png"; sourceTree = "<group>"; };
+		1BF3023318E1A28200300967 /* Borussia Dortmund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Borussia Dortmund.png"; sourceTree = "<group>"; };
+		1BF3023418E1A28200300967 /* Borussia Mochengladbach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Borussia Mochengladbach.png"; sourceTree = "<group>"; };
+		1BF3023518E1A28200300967 /* Eintracht Braunschweig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eintracht Braunschweig.png"; sourceTree = "<group>"; };
+		1BF3023618E1A28200300967 /* Eintracht Frankfurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eintracht Frankfurt.png"; sourceTree = "<group>"; };
+		1BF3023718E1A28200300967 /* FAV Maniz 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FAV Maniz 05.png"; sourceTree = "<group>"; };
+		1BF3023818E1A28200300967 /* Hamburger SV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hamburger SV.png"; sourceTree = "<group>"; };
+		1BF3023918E1A28200300967 /* Hannover 96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hannover 96.png"; sourceTree = "<group>"; };
+		1BF3023A18E1A28200300967 /* Herath Berlin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Herath Berlin.png"; sourceTree = "<group>"; };
+		1BF3023B18E1A28200300967 /* Nuremberg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nuremberg.png; sourceTree = "<group>"; };
+		1BF3023C18E1A28200300967 /* SC Freiburg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SC Freiburg.png"; sourceTree = "<group>"; };
+		1BF3023D18E1A28200300967 /* Schalke 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schalke 04.png"; sourceTree = "<group>"; };
+		1BF3023E18E1A28200300967 /* TSG 1899 Hoffenheim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TSG 1899 Hoffenheim.png"; sourceTree = "<group>"; };
+		1BF3023F18E1A28200300967 /* VFB Stuttgart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VFB Stuttgart.png"; sourceTree = "<group>"; };
+		1BF3024018E1A28200300967 /* VFl Wolfsburg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VFl Wolfsburg.png"; sourceTree = "<group>"; };
+		1BF3024118E1A28200300967 /* Werder Bremen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Werder Bremen.png"; sourceTree = "<group>"; };
+		1BF3025418E1A8B300300967 /* Southampton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Southampton.png; sourceTree = "<group>"; };
+		1BF3025918E1AE7400300967 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		1BF3025A18E1AE7400300967 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		1BF3025B18E1AE7400300967 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		1BF3025C18E1AE7400300967 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		1BF3025D18E1AE7400300967 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		1BF3025E18E1AE7400300967 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		1BF3025F18E1AE7400300967 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		1BF3026018E1AE7400300967 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		1BF3026118E1AE7400300967 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		1BF3026218E1AE7400300967 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		1BF3026418E1C06200300967 /* AdsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsWrapper.h; sourceTree = "<group>"; };
+		1BF3026518E1C06700300967 /* AdsWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsWrapper.m; sourceTree = "<group>"; };
+		1BF3026718E1C15D00300967 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1BF3026918E1C17F00300967 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1BF3026B18E1C19300300967 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1BF3026D18E1C1A200300967 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1BF3026F18E1C1BC00300967 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1BF3027118E1C2D200300967 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B521835185B176C00EE4F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF3027218E1C2D400300967 /* iAd.framework in Frameworks */,
+				1B52183C185B176D00EE4F64 /* UIKit.framework in Frameworks */,
+				1B52183E185B176D00EE4F64 /* Foundation.framework in Frameworks */,
+				1B521840185B176D00EE4F64 /* CoreGraphics.framework in Frameworks */,
+				1B065F0F18644912005F9D03 /* AVFoundation.framework in Frameworks */,
+				1B065F1018644912005F9D03 /* CoreMedia.framework in Frameworks */,
+				1B065F1118644912005F9D03 /* MediaPlayer.framework in Frameworks */,
+				1BF3026318E1AE7400300967 /* libGoogleAdMobAds.a in Frameworks */,
+				1BF3026818E1C15D00300967 /* AudioToolbox.framework in Frameworks */,
+				1BF3026A18E1C17F00300967 /* MessageUI.framework in Frameworks */,
+				1BF3026C18E1C19300300967 /* AdSupport.framework in Frameworks */,
+				1BF3026E18E1C1A200300967 /* StoreKit.framework in Frameworks */,
+				1BF3027018E1C1BC00300967 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B52182F185B176C00EE4F64 = {
+			isa = PBXGroup;
+			children = (
+				1BC65F6618EED0340018F91B /* Default@2x.png */,
+				1B978D6A18EECBE9002CD3FB /* Default.png */,
+				1B978D6C18EECBE9002CD3FB /* Default-568h@2x.png */,
+				1BC65F6418EE87DF0018F91B /* icon72.png */,
+				1BC65F6218EE87DD0018F91B /* icon144.png */,
+				1BC65F6018EE87CD0018F91B /* Default-Portrait@2x~ipad.png */,
+				1BC65F5E18ED74520018F91B /* icon114.png */,
+				1BC65F5C18ED74430018F91B /* icon57.png */,
+				1B47E93418E307D900979E24 /* Default-Landscape@2x~ipad.png */,
+				1B47E93218E3079700979E24 /* Default-Landscape~ipad.png */,
+				1BF3027118E1C2D200300967 /* iAd.framework */,
+				1B521841185B176D00EE4F64 /* SampleProject4 */,
+				1B52183A185B176D00EE4F64 /* Frameworks */,
+				1B521839185B176D00EE4F64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B521839185B176D00EE4F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B521838185B176D00EE4F64 /* iFootVideos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B52183A185B176D00EE4F64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3026F18E1C1BC00300967 /* SystemConfiguration.framework */,
+				1BF3026D18E1C1A200300967 /* StoreKit.framework */,
+				1BF3026B18E1C19300300967 /* AdSupport.framework */,
+				1BF3026918E1C17F00300967 /* MessageUI.framework */,
+				1BF3026718E1C15D00300967 /* AudioToolbox.framework */,
+				1B065F0C18644912005F9D03 /* AVFoundation.framework */,
+				1B065F0D18644912005F9D03 /* CoreMedia.framework */,
+				1B065F0E18644912005F9D03 /* MediaPlayer.framework */,
+				1B52183B185B176D00EE4F64 /* UIKit.framework */,
+				1B52183D185B176D00EE4F64 /* Foundation.framework */,
+				1B52183F185B176D00EE4F64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B521841185B176D00EE4F64 /* SampleProject4 */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3025818E1AE6F00300967 /* Admob */,
+				1B521878185B1EEA00EE4F64 /* Images */,
+				1B521874185B18E000EE4F64 /* DataClasses */,
+				1B521871185B187E00EE4F64 /* Plist */,
+				1B521864185B186200EE4F64 /* CustomClasses */,
+				1B52187A185B282200EE4F64 /* uefa.png */,
+				1BBF42AF186078180078DCB8 /* laliga.jpeg */,
+				1B52184A185B176D00EE4F64 /* AppDelegate.h */,
+				1B52184B185B176D00EE4F64 /* AppDelegate.m */,
+				1B521853185B176D00EE4F64 /* ViewController.h */,
+				1B521854185B176D00EE4F64 /* ViewController.m */,
+				1BF3026418E1C06200300967 /* AdsWrapper.h */,
+				1BF3026518E1C06700300967 /* AdsWrapper.m */,
+				1B521861185B17E400EE4F64 /* MainMenuViewController.h */,
+				1B521862185B17E400EE4F64 /* MainMenuViewController.m */,
+				1BBC136B185EF09200A81053 /* HeaderViewController.h */,
+				1BBC136C185EF09200A81053 /* HeaderViewController.m */,
+				1BBC1370185F17B900A81053 /* ToolBarViewController.h */,
+				1BBC1371185F17BA00A81053 /* ToolBarViewController.m */,
+				1BBF42B518607BC50078DCB8 /* WebView.h */,
+				1BBF42B618607BC50078DCB8 /* WebView.m */,
+				1B521856185B176D00EE4F64 /* ViewController_iPhone.xib */,
+				1B521859185B176D00EE4F64 /* ViewController_iPad.xib */,
+				1B978D7018EECC0D002CD3FB /* Images.xcassets */,
+				1B521842185B176D00EE4F64 /* Supporting Files */,
+			);
+			path = SampleProject4;
+			sourceTree = "<group>";
+		};
+		1B521842185B176D00EE4F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B521843185B176D00EE4F64 /* SampleProject4-Info.plist */,
+				1B521844185B176D00EE4F64 /* InfoPlist.strings */,
+				1B521847185B176D00EE4F64 /* main.m */,
+				1B521849185B176D00EE4F64 /* SampleProject4-Prefix.pch */,
+				1B52184D185B176D00EE4F64 /* Default.png */,
+				1B52184F185B176D00EE4F64 /* Default@2x.png */,
+				1B521851185B176D00EE4F64 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B521864185B186200EE4F64 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1B521865185B186F00EE4F64 /* CustomActivityViewController.h */,
+				1B521866185B186F00EE4F64 /* CustomActivityViewController.m */,
+				1B521867185B186F00EE4F64 /* CustomConnection.h */,
+				1B521868185B186F00EE4F64 /* CustomConnection.m */,
+				1B52186B185B186F00EE4F64 /* UIButton+CustomButton.h */,
+				1B52186C185B186F00EE4F64 /* UIButton+CustomButton.m */,
+				1B521879185B20BD00EE4F64 /* Constant.h */,
+				1B065F09186430A3005F9D03 /* YDownload.h */,
+				1B065F0A186430A3005F9D03 /* YDownload.m */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+		1B521871185B187E00EE4F64 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				1B521872185B189900EE4F64 /* MainMenu.plist */,
+				1B065F1218682935005F9D03 /* TagList.plist */,
+				1BBC1376185F389D00A81053 /* Team.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		1B521874185B18E000EE4F64 /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1B521875185B190700EE4F64 /* AppData.h */,
+				1B521876185B190700EE4F64 /* AppData.m */,
+			);
+			name = DataClasses;
+			sourceTree = "<group>";
+		};
+		1B521878185B1EEA00EE4F64 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1B47E92C18E2FDF800979E24 /* background.jpg */,
+				1B47E92E18E3012300979E24 /* background@2x.jpg */,
+				1BBC1373185F386400A81053 /* team */,
+				1BBF42B1186078A30078DCB8 /* epl.jpeg */,
+				1BBF42B3186079560078DCB8 /* german.png */,
+				1BBC136E185EF10A00A81053 /* headerimage.png */,
+				1BBF42B81861B67E0078DCB8 /* rounded-rectangle.png */,
+				1BBF42BA1861C2FD0078DCB8 /* BackArrow.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1BBC1373185F386400A81053 /* team */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3022F18E1A28000300967 /* German */,
+				1BF3020A18E195C300300967 /* EPL */,
+				1BF301DD18E178B600300967 /* Laliga */,
+			);
+			name = team;
+			sourceTree = "<group>";
+		};
+		1BF301DD18E178B600300967 /* Laliga */ = {
+			isa = PBXGroup;
+			children = (
+				1BF301E818E17BE700300967 /* Barcelona.png */,
+				1BF301E618E17B8C00300967 /* Real Madrid.png */,
+				1BF301DE18E178B600300967 /* Athletic bilbao.png */,
+				1BF301E218E17A1200300967 /* Atletico Madrid.png */,
+				1BF301E418E17B2A00300967 /* Celta Vigo.png */,
+				1BF301EA18E17CB700300967 /* Getafe.png */,
+				1BF301EC18E17E3600300967 /* Granada.png */,
+				1BF301EE18E17E9000300967 /* Levante.png */,
+				1BF301F018E17F2000300967 /* Malaga.png */,
+				1BF301F218E17FAB00300967 /* Osasuna.png */,
+				1BF301F418E1806800300967 /* Rayo Vallecano.png */,
+				1BF301F618E180E800300967 /* Real Betis.png */,
+				1BF301F818E1822000300967 /* Real Sociedad.png */,
+				1BF301FA18E1827A00300967 /* Real Valladollid.png */,
+				1BF301FC18E1835400300967 /* Sevilla.png */,
+				1BF301FE18E183CD00300967 /* Valencia CF.png */,
+				1BF3020218E1852400300967 /* Villarreal.png */,
+				1BF3020418E1862F00300967 /* Espanyol.png */,
+				1BF3020618E1874000300967 /* Elche.png */,
+				1BF3020818E1883100300967 /* Almeria.png */,
+			);
+			name = Laliga;
+			path = Images/TEAM/Laliga;
+			sourceTree = "<group>";
+		};
+		1BF3020A18E195C300300967 /* EPL */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3020B18E195C300300967 /* Arsenal.png */,
+				1BF3025418E1A8B300300967 /* Southampton.png */,
+				1BF3022D18E19CC300300967 /* Liverpool.png */,
+				1BF3020C18E195C300300967 /* Aston Villa.png */,
+				1BF3020D18E195C300300967 /* Cardiff City.png */,
+				1BF3020E18E195C300300967 /* Chelsea.png */,
+				1BF3020F18E195C300300967 /* Crystal palace.png */,
+				1BF3021018E195C300300967 /* Everton.png */,
+				1BF3021118E195C300300967 /* Fulham.png */,
+				1BF3021218E195C300300967 /* Hull City.png */,
+				1BF3021318E195C300300967 /* Manchester City.png */,
+				1BF3021418E195C300300967 /* Manchester United.png */,
+				1BF3021518E195C300300967 /* Newcastle United.png */,
+				1BF3021618E195C300300967 /* Norwich City.png */,
+				1BF3021718E195C300300967 /* Sunderland.png */,
+				1BF3021818E195C300300967 /* Swansea City Afc.png */,
+				1BF3021918E195C300300967 /* Tottenham Hotspur.png */,
+				1BF3021A18E195C300300967 /* West Bromwich Albion.png */,
+				1B47E93018E302F200979E24 /* Stoke City.png */,
+				1BF3021B18E195C300300967 /* West Ham United.png */,
+			);
+			name = EPL;
+			path = Images/TEAM/EPL;
+			sourceTree = "<group>";
+		};
+		1BF3022F18E1A28000300967 /* German */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3023018E1A28200300967 /* Augsburg.png */,
+				1BF3023118E1A28200300967 /* Bayer leverkusen.png */,
+				1BF3023218E1A28200300967 /* Bayern Munich.png */,
+				1BF3023318E1A28200300967 /* Borussia Dortmund.png */,
+				1BF3023418E1A28200300967 /* Borussia Mochengladbach.png */,
+				1BF3023518E1A28200300967 /* Eintracht Braunschweig.png */,
+				1BF3023618E1A28200300967 /* Eintracht Frankfurt.png */,
+				1BF3023718E1A28200300967 /* FAV Maniz 05.png */,
+				1BF3023818E1A28200300967 /* Hamburger SV.png */,
+				1BF3023918E1A28200300967 /* Hannover 96.png */,
+				1BF3023A18E1A28200300967 /* Herath Berlin.png */,
+				1BF3023B18E1A28200300967 /* Nuremberg.png */,
+				1BF3023C18E1A28200300967 /* SC Freiburg.png */,
+				1BF3023D18E1A28200300967 /* Schalke 04.png */,
+				1BF3023E18E1A28200300967 /* TSG 1899 Hoffenheim.png */,
+				1BF3023F18E1A28200300967 /* VFB Stuttgart.png */,
+				1BF3024018E1A28200300967 /* VFl Wolfsburg.png */,
+				1BF3024118E1A28200300967 /* Werder Bremen.png */,
+			);
+			name = German;
+			path = Images/TEAM/German;
+			sourceTree = "<group>";
+		};
+		1BF3025818E1AE6F00300967 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3025918E1AE7400300967 /* GADAdMobExtras.h */,
+				1BF3025A18E1AE7400300967 /* GADAdNetworkExtras.h */,
+				1BF3025B18E1AE7400300967 /* GADAdSize.h */,
+				1BF3025C18E1AE7400300967 /* GADBannerView.h */,
+				1BF3025D18E1AE7400300967 /* GADBannerViewDelegate.h */,
+				1BF3025E18E1AE7400300967 /* GADInterstitial.h */,
+				1BF3025F18E1AE7400300967 /* GADInterstitialDelegate.h */,
+				1BF3026018E1AE7400300967 /* GADRequest.h */,
+				1BF3026118E1AE7400300967 /* GADRequestError.h */,
+				1BF3026218E1AE7400300967 /* libGoogleAdMobAds.a */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B521837185B176C00EE4F64 /* SampleProject4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B52185E185B176D00EE4F64 /* Build configuration list for PBXNativeTarget "SampleProject4" */;
+			buildPhases = (
+				1B521834185B176C00EE4F64 /* Sources */,
+				1B521835185B176C00EE4F64 /* Frameworks */,
+				1B521836185B176C00EE4F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleProject4;
+			productName = SampleProject4;
+			productReference = 1B521838185B176D00EE4F64 /* iFootVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B521830185B176C00EE4F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tcs;
+			};
+			buildConfigurationList = 1B521833185B176C00EE4F64 /* Build configuration list for PBXProject "SampleProject4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B52182F185B176C00EE4F64;
+			productRefGroup = 1B521839185B176D00EE4F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B521837185B176C00EE4F64 /* SampleProject4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B521836185B176C00EE4F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B521846185B176D00EE4F64 /* InfoPlist.strings in Resources */,
+				1B521858185B176D00EE4F64 /* ViewController_iPhone.xib in Resources */,
+				1B52185B185B176D00EE4F64 /* ViewController_iPad.xib in Resources */,
+				1B521873185B189900EE4F64 /* MainMenu.plist in Resources */,
+				1B52187B185B282200EE4F64 /* uefa.png in Resources */,
+				1BBC136F185EF10A00A81053 /* headerimage.png in Resources */,
+				1BBC1377185F389D00A81053 /* Team.plist in Resources */,
+				1BBF42B0186078180078DCB8 /* laliga.jpeg in Resources */,
+				1BBF42B2186078A30078DCB8 /* epl.jpeg in Resources */,
+				1BBF42B4186079560078DCB8 /* german.png in Resources */,
+				1BBF42B91861B67E0078DCB8 /* rounded-rectangle.png in Resources */,
+				1BBF42BB1861C2FD0078DCB8 /* BackArrow.jpg in Resources */,
+				1B065F1318682935005F9D03 /* TagList.plist in Resources */,
+				1BF301DF18E178B600300967 /* Athletic bilbao.png in Resources */,
+				1BF301E318E17A1200300967 /* Atletico Madrid.png in Resources */,
+				1BF301E518E17B2A00300967 /* Celta Vigo.png in Resources */,
+				1BF301E718E17B8C00300967 /* Real Madrid.png in Resources */,
+				1B978D7118EECC0D002CD3FB /* Images.xcassets in Resources */,
+				1BF301E918E17BE700300967 /* Barcelona.png in Resources */,
+				1BF301EB18E17CB700300967 /* Getafe.png in Resources */,
+				1BF301ED18E17E3700300967 /* Granada.png in Resources */,
+				1BF301EF18E17E9000300967 /* Levante.png in Resources */,
+				1BF301F118E17F2000300967 /* Malaga.png in Resources */,
+				1BF301F318E17FAB00300967 /* Osasuna.png in Resources */,
+				1BF301F518E1806800300967 /* Rayo Vallecano.png in Resources */,
+				1BF301F718E180E800300967 /* Real Betis.png in Resources */,
+				1BF301F918E1822000300967 /* Real Sociedad.png in Resources */,
+				1BF301FB18E1827A00300967 /* Real Valladollid.png in Resources */,
+				1BF301FD18E1835400300967 /* Sevilla.png in Resources */,
+				1BF301FF18E183CD00300967 /* Valencia CF.png in Resources */,
+				1BF3020318E1852500300967 /* Villarreal.png in Resources */,
+				1BF3020518E1863000300967 /* Espanyol.png in Resources */,
+				1BF3020718E1874000300967 /* Elche.png in Resources */,
+				1BF3020918E1883100300967 /* Almeria.png in Resources */,
+				1BF3021C18E195C300300967 /* Arsenal.png in Resources */,
+				1BF3021D18E195C300300967 /* Aston Villa.png in Resources */,
+				1BF3021E18E195C300300967 /* Cardiff City.png in Resources */,
+				1B978D6D18EECBE9002CD3FB /* Default.png in Resources */,
+				1BF3021F18E195C300300967 /* Chelsea.png in Resources */,
+				1BF3022018E195C300300967 /* Crystal palace.png in Resources */,
+				1BF3022118E195C300300967 /* Everton.png in Resources */,
+				1BF3022218E195C300300967 /* Fulham.png in Resources */,
+				1BF3022318E195C300300967 /* Hull City.png in Resources */,
+				1BF3022418E195C300300967 /* Manchester City.png in Resources */,
+				1BF3022518E195C300300967 /* Manchester United.png in Resources */,
+				1BF3022618E195C300300967 /* Newcastle United.png in Resources */,
+				1BF3022718E195C300300967 /* Norwich City.png in Resources */,
+				1BF3022818E195C300300967 /* Sunderland.png in Resources */,
+				1BF3022918E195C300300967 /* Swansea City Afc.png in Resources */,
+				1BF3022A18E195C300300967 /* Tottenham Hotspur.png in Resources */,
+				1B978D6F18EECBE9002CD3FB /* Default-568h@2x.png in Resources */,
+				1BF3022B18E195C300300967 /* West Bromwich Albion.png in Resources */,
+				1BF3022C18E195C300300967 /* West Ham United.png in Resources */,
+				1BF3022E18E19CC600300967 /* Liverpool.png in Resources */,
+				1BF3024218E1A28200300967 /* Augsburg.png in Resources */,
+				1BF3024318E1A28200300967 /* Bayer leverkusen.png in Resources */,
+				1BF3024418E1A28200300967 /* Bayern Munich.png in Resources */,
+				1BF3024518E1A28200300967 /* Borussia Dortmund.png in Resources */,
+				1BF3024618E1A28200300967 /* Borussia Mochengladbach.png in Resources */,
+				1BF3024718E1A28200300967 /* Eintracht Braunschweig.png in Resources */,
+				1BF3024818E1A28200300967 /* Eintracht Frankfurt.png in Resources */,
+				1BF3024918E1A28200300967 /* FAV Maniz 05.png in Resources */,
+				1BF3024A18E1A28200300967 /* Hamburger SV.png in Resources */,
+				1BF3024B18E1A28200300967 /* Hannover 96.png in Resources */,
+				1BF3024C18E1A28200300967 /* Herath Berlin.png in Resources */,
+				1BF3024D18E1A28200300967 /* Nuremberg.png in Resources */,
+				1BF3024E18E1A28200300967 /* SC Freiburg.png in Resources */,
+				1BF3024F18E1A28200300967 /* Schalke 04.png in Resources */,
+				1BF3025018E1A28200300967 /* TSG 1899 Hoffenheim.png in Resources */,
+				1BF3025118E1A28200300967 /* VFB Stuttgart.png in Resources */,
+				1BF3025218E1A28200300967 /* VFl Wolfsburg.png in Resources */,
+				1BF3025318E1A28200300967 /* Werder Bremen.png in Resources */,
+				1BF3025518E1A8B600300967 /* Southampton.png in Resources */,
+				1B47E92D18E2FDF800979E24 /* background.jpg in Resources */,
+				1B47E92F18E3012300979E24 /* background@2x.jpg in Resources */,
+				1B47E93118E302F200979E24 /* Stoke City.png in Resources */,
+				1B47E93318E3079800979E24 /* Default-Landscape~ipad.png in Resources */,
+				1B47E93618E3081700979E24 /* Default-Landscape@2x~ipad.png in Resources */,
+				1BC65F5D18ED74430018F91B /* icon57.png in Resources */,
+				1BC65F5F18ED74520018F91B /* icon114.png in Resources */,
+				1BC65F6318EE87DD0018F91B /* icon144.png in Resources */,
+				1BC65F6518EE87DF0018F91B /* icon72.png in Resources */,
+				1BC65F6718EED0340018F91B /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B521834185B176C00EE4F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B521848185B176D00EE4F64 /* main.m in Sources */,
+				1B52184C185B176D00EE4F64 /* AppDelegate.m in Sources */,
+				1B521855185B176D00EE4F64 /* ViewController.m in Sources */,
+				1B521863185B17E400EE4F64 /* MainMenuViewController.m in Sources */,
+				1B52186D185B186F00EE4F64 /* CustomActivityViewController.m in Sources */,
+				1B52186E185B186F00EE4F64 /* CustomConnection.m in Sources */,
+				1B521870185B186F00EE4F64 /* UIButton+CustomButton.m in Sources */,
+				1B521877185B190700EE4F64 /* AppData.m in Sources */,
+				1BBC136D185EF09200A81053 /* HeaderViewController.m in Sources */,
+				1BBC1372185F17BB00A81053 /* ToolBarViewController.m in Sources */,
+				1BBF42B718607BC50078DCB8 /* WebView.m in Sources */,
+				1B065F0B186430A3005F9D03 /* YDownload.m in Sources */,
+				1BF3026618E1C06C00300967 /* AdsWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B521844185B176D00EE4F64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B521845185B176D00EE4F64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B521856185B176D00EE4F64 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B521857185B176D00EE4F64 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1B521859185B176D00EE4F64 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B52185A185B176D00EE4F64 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B52185C185B176D00EE4F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B52185D185B176D00EE4F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B52185F185B176D00EE4F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tata Consultancy Services Limited";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject4/SampleProject4-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject4/SampleProject4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SampleProject4/Admob\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iFootVideos;
+				PROVISIONING_PROFILE = "326CF1E3-0B33-40AE-AAD5-C6FA6B1F1F10";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 armv6 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B521860185B176D00EE4F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tata Consultancy Services Limited";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject4/SampleProject4-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject4/SampleProject4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SampleProject4/Admob\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iFootVideos;
+				PROVISIONING_PROFILE = "326CF1E3-0B33-40AE-AAD5-C6FA6B1F1F10";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 armv6 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B521833185B176C00EE4F64 /* Build configuration list for PBXProject "SampleProject4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B52185C185B176D00EE4F64 /* Debug */,
+				1B52185D185B176D00EE4F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B52185E185B176D00EE4F64 /* Build configuration list for PBXNativeTarget "SampleProject4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B52185F185B176D00EE4F64 /* Debug */,
+				1B521860185B176D00EE4F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B521830185B176C00EE4F64 /* Project object */;
+}
